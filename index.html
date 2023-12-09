@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliflix</title>
+   
+    <link
+    rel="stylesheet"
+    href="http://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+</head>
+
+<body>
+    <h1> PELIFLIX </h1>
+    <h2> Estrenos </h2>
+
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="imagenes/the prodigy.jpeg" id="img1"
+                 onmouseover="redimensionarMas(id);"
+                  onmouseout="redimensionarMenos(id);"
+                  onclick="informacion(id);" />
+                <div class="swiper-txt">
+                    <h3>The prodigy</h3>
+                    <h3>Clasificacion C</h3>
+                </div>
+
+              
+
+
+            </div>
+            <div class="swiper-slide">
+                <img src="imagenes/wakanda.jpeg" id="img2" 
+                onmouseover="redimensionarMas(id);"
+                 onmouseout="redimensionarMenos(id);" 
+                 onclick="informacion(id);"/>
+                 
+                <div class="swiper-txt">
+                    <h3>Wakanda</h3>
+                    <h3>Clasificacion B</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="imagenes/avatar.jpeg" id="img3" 
+                onmouseover="redimensionarMas(id);" 
+                onmouseout="redimensionarMenos(id);"
+                onclick="informacion(id);" />
+                <div class="swiper-txt">
+                    <h3>Avatar</h3>
+                    <h3>Clasificacion B</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="imagenes/avengers.jpeg" id="img4" 
+                onmouseover="redimensionarMas(id);"
+                 onmouseout="redimensionarMenos(id);"
+                 onclick="informacion(id);" />
+                <div class="swiper-txt">
+                    <h3>Avengers</h3>
+                    <h3>Clasificacion A</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="imagenes/venom.jpeg" id="img5" 
+                onmouseover="redimensionarMas(id);"
+                 onmouseout="redimensionarMenos(id);"
+                 onclick="informacion(id);" />
+                <div class="swiper-txt">
+                    <h3>Venom </h3>
+                    <h3>Clasificacion B</h3>
+                </div>
+            </div>
+
+        </div>
+        
+        
+    </div>
+    <script src="http://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="JavaScript/main.js"></script>   
+   <script src="JavaScript/redimensionar.js"></script>  
+   <script src="JavaScript/informacion.js"></script>   
+
+<form action="login.php" method="post">
+
+    
+<p>Usuario <input type="text"placeholder="" name="usuario" > </p>
+<p>Contraseña<input type="password"placeholder="ingrese su contraseña" name="password" > </p>
+
+<input type="submit" value="ingresar">
+
+
+</form>
+
+
+</body>
+</html>

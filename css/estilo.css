@@ -1,0 +1,101 @@
+
+h1{
+	text-align: center;
+	background-color: black;
+	color: red;
+	padding: 0px;
+}
+h2{
+	text-align: center;
+	background-color: black;
+	color: gray;
+	padding: 5px;
+	font-size: 2;
+}
+p{
+	text-align: center;
+	background-color: black;
+	color: red;
+	padding: 10px;
+	margin: 0;
+	
+}
+body{
+	background-color: black;
+}
+button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+nav ul{
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline-flex;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover{
+	background-color: red;
+}
+li{
+	color: white;
+}
+li:hover{
+	background-color: red;
+}
+input{
+
+	margin: auto; display: block;
+	text-align: center
+}
+table{
+	background-color: white;
+}
+.container{
+	max-width: 1040px;
+	margin: 0 auto;
+}
+.swiper{
+	margin-top: 40px;
+}
+.swiper-slide{
+	margin-bottom: 50px;
+	background-color: black;
+	box-shadow: 0 30px 30px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	height: 420px;
+	width: 295px;
+	position: relative;
+	
+}
+.swiper-slide img{
+	width: 195px;
+	border-radius: 15px;
+	height: 320px;
+}
+.swiper-txt{
+	position: absolute;
+	padding: 25px;
+}
+.swiper-txt h3{
+	font-size: 15px;
+	margin-bottom: 5px;
+	color:gray;
+	
+}
+
+
+
+
+
+
+
